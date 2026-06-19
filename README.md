@@ -72,7 +72,7 @@ The agent (`.opencode/agents/ask_me.md`) is locked down:
 | `websearch`     | allow | Can search the web for current info                  |
 | Everything else | deny  | No file access, no commands, no codebase exploration |
 
-Context7 (library documentation lookup) is available via MCP from the global opencode config.
+Context7 (library documentation lookup) is available via MCP from the project-level opencode config.
 
 ## Verifying Usage of MCP and websearch
 
